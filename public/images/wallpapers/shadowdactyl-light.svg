@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1440" width="1920" height="1440">
+  <!-- Light variant wallpaper for bright themes -->
+  <defs>
+    <linearGradient id="lightBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f3f0ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#faf5ff;stop-opacity:1" />
+    </linearGradient>
+    
+    <radialGradient id="lightGlow" cx="50%" cy="30%" r="50%">
+      <stop offset="0%" style="stop-color:#a855f7;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1920" height="1440" fill="url(#lightBg)"/>
+  <circle cx="960" cy="500" r="700" fill="url(#lightGlow)"/>
+  
+  <!-- Dragon and logo (centered) -->
+  <g transform="translate(960, 400)">
+    <!-- Left wing -->
+    <ellipse cx="-280" cy="40" rx="260" ry="380" fill="#a855f7" opacity="0.7" transform="rotate(-38 -280 40)"/>
+    
+    <!-- Right wing -->
+    <ellipse cx="280" cy="40" rx="260" ry="380" fill="#a855f7" opacity="0.7" transform="rotate(38 280 40)"/>
+    
+    <!-- Dragon head -->
+    <g>
+      <ellipse cx="0" cy="-150" rx="220" ry="280" fill="#6b21a8" stroke="#7c3aed" stroke-width="4"/>
+      <ellipse cx="0" cy="0" rx="150" ry="130" fill="#7c3aed" stroke="#9333ea" stroke-width="2"/>
+      
+      <!-- Horns -->
+      <path d="M -100 -360 Q -130 -420 -160 -520" stroke="#7c3aed" stroke-width="4" fill="none"/>
+      <path d="M 100 -360 Q 130 -420 160 -520" stroke="#7c3aed" stroke-width="4" fill="none"/>
+      
+      <!-- Eyes -->
+      <circle cx="-70" cy="-160" r="35" fill="#9333ea" stroke="#ffffff" stroke-width="2"/>
+      <circle cx="70" cy="-160" r="35" fill="#9333ea" stroke="#ffffff" stroke-width="2"/>
+      <circle cx="-65" cy="-170" r="12" fill="#ff00ff" opacity="0.8"/>
+      <circle cx="75" cy="-170" r="12" fill="#ff00ff" opacity="0.8"/>
+    </g>
+    
+    <!-- Hexagon -->
+    <g transform="translate(0, 100)">
+      <polygon points="0,-160 185,-95 185,95 0,160 -185,95 -185,-95" 
+               fill="#ffffff" stroke="#7c3aed" stroke-width="4" opacity="0.9"/>
+      <polygon points="0,-150 175,-90 175,90 0,150 -175,90 -175,-90" 
+               fill="#a855f7" opacity="0.15"/>
+      
+      <text x="-50" y="60" font-family="Arial, sans-serif" font-size="160" font-weight="900" 
+            fill="#9333ea" text-anchor="middle">S</text>
+      <text x="60" y="60" font-family="Arial, sans-serif" font-size="160" font-weight="900" 
+            fill="#7c3aed" text-anchor="middle" opacity="0.8">D</text>
+    </g>
+  </g>
+  
+  <!-- Title -->
+  <text x="960" y="1100" font-family="Arial, sans-serif" font-size="140" font-weight="900" 
+        text-anchor="middle" fill="#9333ea" letter-spacing="6">SHADOW</text>
+  <text x="960" y="1100" font-family="Arial, sans-serif" font-size="140" font-weight="900" 
+        text-anchor="middle" fill="#7c3aed" opacity="0.7" letter-spacing="6" dx="700">DACTYL</text>
+  
+  <!-- Tagline -->
+  <text x="960" y="1200" font-family="Arial, sans-serif" font-size="44" text-anchor="middle" 
+        fill="#9333ea" letter-spacing="5" font-weight="600">POWER · CONTROL · FREEDOM</text>
+  
+  <!-- Lines -->
+  <line x1="550" y1="1240" x2="750" y2="1240" stroke="#9333ea" stroke-width="3" opacity="0.5"/>
+  <line x1="1170" y1="1240" x2="1370" y2="1240" stroke="#9333ea" stroke-width="3" opacity="0.5"/>
+</svg>
