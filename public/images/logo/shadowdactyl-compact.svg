@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6b21a8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4c1d95;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <circle cx="100" cy="100" r="95" fill="#000000" stroke="url(#logoGrad)" stroke-width="1.5"/>
+  <g transform="translate(100, 75)">
+    <path d="M -15 -25 L -20 -35" stroke="#6b21a8" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <path d="M 15 -25 L 20 -35" stroke="#6b21a8" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <circle cx="0" cy="-12" r="16" fill="#2a2a2a" stroke="#6b21a8" stroke-width="1.5"/>
+    <circle cx="-6" cy="-15" r="2" fill="#6b21a8"/>
+    <circle cx="6" cy="-15" r="2" fill="#6b21a8"/>
+    <path d="M -12 -5 L -25 5 L -15 10 Z" fill="#6b21a8"/>
+    <path d="M 12 -5 L 25 5 L 15 10 Z" fill="#6b21a8"/>
+    <polygon points="0,15 12,22 12,32 0,37 -12,32 -12,22" fill="#ffffff" opacity="0.15" stroke="#6b21a8" stroke-width="1"/>
+    <text x="0" y="29" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#6b21a8">S</text>
+  </g>
+  <text x="100" y="155" font-family="Arial, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#6b21a8">SHADOW</text>
+  <text x="100" y="155" font-family="Arial, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#ffffff" opacity="0.5" dx="50">DACTYL</text>
+</svg>
