@@ -42,10 +42,10 @@ replace_in_files "pterodactyl" "shadowdactyl"
 replace_in_files "PteroDactyl" "ShadowDactyl"
 
 # 5. Replace pterodactyleggs.com with shadowdactyl equivalent
-replace_in_files "pterodactyleggs.com" "shadowdactyl.com"
+replace_in_files "pterodactyleggs.com" "shadowdactyl.qzz.io"
 
 # 6. Replace pterodactyl.io references (keep some as-is if needed for docs)
-replace_in_files "pterodactyl.io" "shadowdactyl.io"
+replace_in_files "pterodactyl.io" "shadowdactyl.qzz.io"
 
 # 7. Update Discord URLs if present
 replace_in_files "discord.gg/pterodactyl" "discord.gg/shadowdactyl"
