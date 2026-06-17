@@ -2,7 +2,7 @@
 
 **GET 2 YEAR FREE VNC SERVER OWN BY Shadow**
 
-![VNC SERVER](https://vnc.phoenixnode.dpdns.org)
+[VNC SERVER](https://vnc.phoenixnode.dpdns.org)
 
 **ENJOY**
 
