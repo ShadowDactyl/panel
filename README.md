@@ -1,4 +1,4 @@
-[![Logo Image]([https://ibb.co/3ys93X6C](https://ibb.co/3ys93X6C))](https://shadowdactyl.qzz.io)
+[![Logo Image](https://ibb.co/3ys93X6C)[](https://shadowdactyl.qzz.io)
 
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/shadowdactyl/panel/ci.yaml?label=Tests&style=for-the-badge&branch=1.0-develop)
 ![Discord](https://img.shields.io/discord/122900397965705216?label=Discord&logo=Discord&logoColor=white&style=for-the-badge)
